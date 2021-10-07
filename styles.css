@@ -1,0 +1,38 @@
+body {
+  margin-top: 3em;
+  user-select: none;
+}
+
+main {
+  background-color: gray;
+}
+
+html {
+  background-color: gray;
+}
+
+#buttons-container {
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#dice-container {
+  width: 60%;
+}
+
+.container-fluid {
+  margin: 3em;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.die {
+  display: inline-block;
+  text-align: center;
+  font-size: 200px;
+  line-height: 0.65;
+  cursor: pointer;
+}
